@@ -52,6 +52,9 @@ export default {
   .navbar-expand-lg {
     padding: 8px 60px;
   }
+  .router-link-exact-active {
+    border-bottom: 3px solid yellow;
+  }
 }
 .acga-logo {
   max-width: 80px;
