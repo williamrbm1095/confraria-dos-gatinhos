@@ -2,18 +2,21 @@
   <div id="app">
     <Navbar/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 // Import Navbar
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: { 
-    Navbar
-  }
+    Navbar,
+    Footer
+  },
 }
 </script>
 <style>
@@ -23,6 +26,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  overflow-x: hidden;
 }
 
 #nav {
@@ -36,5 +40,10 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.breadcrumb {
+  padding: 10px !important;
+  font-size: 12px;
 }
 </style>

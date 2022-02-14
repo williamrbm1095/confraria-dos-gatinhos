@@ -45,11 +45,7 @@ export default {
 };
 </script>
 
-<style lang="css">
-  .breadcrumb {
-    padding: 10px;
-    font-size: 12px;
-  }
+<style lang="css" scoped>
   a {
     text-decoration: none;
   }
