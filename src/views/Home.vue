@@ -27,28 +27,22 @@
     <!-- This block is a title --end-- -->
     <!-- This block is a first sector --start-- -->
     <b-container fluid class="sector sector-1">
-      <div class="mt-4">
-        <h4>Left and Right (or Start and End)</h4>
-        <b-card
-          img-src="https://placekitten.com/300/300"
-          img-alt="Card image"
-          img-left
-          class="mb-3"
-        >
-          <b-card-text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolor, assumenda dolorum ab numquam tenetur. Quae sunt error, optio labore ullam repellendus aliquid excepturi fugit repellat facilis! Officia, sunt quisquam.
-          </b-card-text>
-        </b-card>
-      </div>
+  
+      <b-row cols="1" cols-sm="2" cols-md="2" cols-lg="2" cols-xl="2">
+        <b-col> <b-img src="https://placekitten.com/1000/500" fluid alt="Responsive image"></b-img></b-col>
+        <b-col><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel veritatis error consequuntur? Error labore et, quo beatae temporibus, veniam repudiandae vitae illo cumque deserunt numquam animi unde magnam tempora.</p></b-col>
+      </b-row>
+
     </b-container>
     <!-- This block is a first sector --end-- -->
     <!-- This block is a second sector --start-- -->
-    <b-container fluid class="sector sector-2">
-      <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-right>
-        <b-card-text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quia voluptatibus officiis tenetur! Ullam ipsam, explicabo cupiditate quas officiis libero reiciendis et neque laboriosam impedit, dolores rerum quibusdam vero perspiciatis!
-        </b-card-text>
-      </b-card>
+    <b-container fluid class="sector sector-1">
+     
+      <b-row cols="1" cols-sm="2" cols-md="2" cols-lg="2" cols-xl="2">
+        <b-col><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel veritatis error consequuntur? Error labore et, quo beatae temporibus, veniam repudiandae vitae illo cumque deserunt numquam animi unde magnam tempora.</p></b-col>
+        <b-col> <b-img src="https://placekitten.com/1000/500" fluid alt="Responsive image"></b-img></b-col>
+      </b-row>
+
     </b-container>
     <!-- This block is a second sector --end-- -->
     <!-- This block is a third sector --start-- -->
